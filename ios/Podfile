@@ -29,6 +29,17 @@ target 'myapp' do
     # Native 0.74.2 is released with fixes.
     :privacy_file_aggregation_enabled => podfile_properties['apple.privacyManifestAggregationEnabled'] == 'true',
   )
+    rn_maps_path = '../node_modules/react-native-maps'
+    pod 'react-native-google-maps', :path => rn_maps_path
+    pod 'Firebase', :modular_headers => true
+    pod 'FirebaseCore', :modular_headers => true
+    pod 'FirebaseCoreExtension', :modular_headers => true
+    pod 'FirebaseInstallations', :modular_headers => true
+    pod 'GoogleDataTransport', :modular_headers => true
+    pod 'FirebaseCoreInternal', :modular_headers => true
+    pod 'FirebaseSessions', :modular_headers => true
+    pod 'nanopb', :modular_headers => true
+    pod 'GoogleUtilities', :modular_headers => true
 
   post_install do |installer|
     react_native_post_install(

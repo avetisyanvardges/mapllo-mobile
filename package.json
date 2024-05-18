@@ -5,7 +5,13 @@
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
-    "ios": "expo run:ios",
+    "android-release": "expo run:android --variant release",
+    "android-logs": "react-native log-android",
+    "ios logs": "react-native log-ios",
+    "ios": "expo run:ios --device",
+    "pod": "cd ios && pod install && cd ..",
+    "pod-update": "cd ios && rm -rf Pods Podfile.lock && pod install --repo-update && cd ..",
+    "gradlew": "cd android && ./gradlew clean && cd ..",
     "web": "expo start --web"
   },
   "dependencies": {

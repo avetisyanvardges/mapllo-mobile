@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
-    "version": "1.0.0",
+    "name": "mapllo-mobile-rn",
+    "slug": "mapllo-mobile-rn",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -54,15 +54,6 @@
       "eas": {
         "projectId": "a32557a2-9dde-4fbf-b814-0f9f42834273"
       }
-    },
-    "plugins": [
-      "expo-secure-store",
-      "react-native-vision-camera",
-      {
-        "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera.",
-        "enableMicrophonePermission": true,
-        "microphonePermissionText": "$(PRODUCT_NAME) needs access to your Microphone."
-      }
-    ]
+    }
   }
 }
