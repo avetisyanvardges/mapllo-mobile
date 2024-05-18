@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "my-app",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "com.prod.mapllo",
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.prod.mapllo",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCwNRKz5aqbrsvkG1ehJ51ZjtJYdxsbkWg"
+      },
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch",
+          "remote-notification"
+        ],
+        "NSLocationWhenInUseUsageDescription": "We need access to your location to provide relevant information based on your current location."
+      }
+    },
+    "android": {
+      "googleServicesFile": "./android/app/google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCwNRKz5aqbrsvkG1ehJ51ZjtJYdxsbkWg"
+        }
+      },
+      "package": "com.production.mapllo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a32557a2-9dde-4fbf-b814-0f9f42834273"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "react-native-vision-camera",
+      {
+        "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera.",
+        "enableMicrophonePermission": true,
+        "microphonePermissionText": "$(PRODUCT_NAME) needs access to your Microphone."
+      }
+    ]
+  }
+}
