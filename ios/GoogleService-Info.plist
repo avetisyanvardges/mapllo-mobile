@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>599064016739-hfev1cp756317lcd2e7skgmicak800nu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.599064016739-hfev1cp756317lcd2e7skgmicak800nu</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>599064016739-92jlcqppspilk8blqebe4eq25ea3rneb.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyANqA3WfExtbmgGOHMgO71iM5zYZxf9jQ8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>599064016739</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.prod.mapllo</string>
+	<key>PROJECT_ID</key>
+	<string>lively-math-322112</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lively-math-322112.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:599064016739:ios:09a59565c37f2acc8a8556</string>
+</dict>
+</plist>
